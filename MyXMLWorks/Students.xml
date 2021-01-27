@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+	<student>
+		<stName>deniz</stName>
+		<stSurname>sucu</stSurname>
+		<stAge>22</stAge>
+		<stDepartment>compeng</stDepartment>
+		<stClass/>
+		<stGno>3.25</stGno>
+	</student>
+</Students>
