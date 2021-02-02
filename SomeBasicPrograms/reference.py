@@ -61,3 +61,23 @@ result = (x > 0) or (x % 2 == 0) # True  #false, false => false,  diğerleri tru
 result = not(x>0) 
 
 print(result)
+
+#Other Operators
+
+#Identity Operator => is => aynı obje mi buna bakıyoruz
+x = y = [1, 2, 3]
+z = [1, 2, 3]
+
+print(x == y)
+print(x == z)
+print(x is y)
+print(x is z) # değerleri önemli değil, değerleri aynı olsa da is operatörü için false oldu
+
+#Membership Operator => in 
+x = ["banana", "apple"]
+print("banana" in x) # banana x içerisinde var true dönecek
+
+name = "deniz"
+print("e" in name) #True
+print("e" not in name) #Bu şekilde tersten de sorabiliriz
+
